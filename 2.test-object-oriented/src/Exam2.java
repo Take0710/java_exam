@@ -1,6 +1,11 @@
 public class Exam2 {
-    String day;
-   static  String week(String a,String b,String c,String d,String e){
-            
-    }
+    public static void main(String[] args) {
+        
+    
+ String week[] = {"月","火","水","木","金","土","日"};
+    
+        for(String n : week){
+            System.out.println(n);
+        }
+}
 }

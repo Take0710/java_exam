@@ -1,5 +1,6 @@
 public class Student {
-     public int energy = 50;
+  int energy = 50;
+    
      
     void sleep(){
         energy += 50;
@@ -13,6 +14,11 @@ public class Student {
     void study(){
         energy -= 30;
         System.out.println("勉強しました。エネルギーが"+energy+"になりました。");
+        if(energy <= 0){
+            energy  = 0;
+            System.out.println("寝てください。");
+        }
     }
+
 
 }
