@@ -30,7 +30,7 @@ public class Exam1 {
 			// (4)SQL実行
 			// ※ここにSQL実行処理を書く
 		   int id = pstmt.executeUpdate();
-            long name = pstmt.executeLargeUpdate();
+            String name = pstmt.executeUpdate();
 
 int age = pstmt.executeUpdate();
 int dep_id = pstmt.executeUpdate();
