@@ -1,0 +1,33 @@
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+
+}
+
+th[scope="col"] {
+  
+}
+
+th[scope="row"] {
+  
+}
+
+td {
+  text-align: center;
+}
+
+tr:nth-of-type(even) {
+
+}
+
+table {
+  border-collapse: collapse;
+
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+caption {
+  caption-side: bottom;
+  padding: 10px;
+}
