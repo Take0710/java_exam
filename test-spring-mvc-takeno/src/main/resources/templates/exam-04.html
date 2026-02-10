@@ -6,9 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="finishied.html" th:action="@{/exam04/shohei04}" method="post">
+    <form action="finishied.html" th:action="@{/exam04/shohei04}" method="post"
+    th:object="${receiveNameForm}">
     名前を入力してください<br>
-    <input type="text" name="name">
+    <input type="text" name="name" th:filed="@{*name}"><br>
 <button>送信</button>
 </body>
 </html>
