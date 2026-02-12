@@ -1,8 +1,8 @@
 package com.example.demo.form;
 
 public class User {
-    private int num1;
-    private int num2;
+    private Integer num1;
+    private Integer num2;
     public int getNum1() {
         return num1;
     }

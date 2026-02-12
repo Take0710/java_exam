@@ -1,0 +1,5 @@
+insert into items(id,category_id,name,price)
+values(13,1,'鰯',150);
+
+insert into items(id,category_id,name,price)
+values(14,2	,'羊',650);

@@ -6,10 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <h2>数字を入れてください。</h2>
-    <form th:action="@{/ex02/exe3}">
-<input type="number" name="num1">+<input type="number" name="num2">=<br>
-<button type="submit">足し算をする</button>
-    </form>
+       <h1>足し算画面</h1>
+     <span th:text="${session.num1}">+</span>4 <span th:text="${session.num2}"></span>=
+    <span th:text="${session.num3}"></span>
+ 
 </body>
 </html>

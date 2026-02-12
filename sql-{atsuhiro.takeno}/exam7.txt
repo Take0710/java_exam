@@ -1,0 +1,7 @@
+select
+e.name,
+s.name
+from  prefectures e
+inner join regions s
+GROUP By e.region_code = s.code
+;
