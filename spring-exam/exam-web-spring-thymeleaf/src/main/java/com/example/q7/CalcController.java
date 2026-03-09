@@ -37,7 +37,7 @@ public class CalcController {
 						 RedirectAttributes redirectAttributes,
 						 Model model){
 				if(rs.hasErrors()){
-					  return index(model);
+					  return "7/calc";
 				}
 		Integer calcresult = Integer.parseInt(form.getRight()) + Integer.parseInt(form.getLeft());	
 		model.addAttribute("result",calcresult);
